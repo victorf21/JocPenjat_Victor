@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penjat</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header class="header">
+        <input id="paraulaSecreta" placeholder="Introdueix una paraula" type="text">
+        <button id="mostrar" onclick="mostrarParaula()">Mostrar</button>  
+        <button id="comencarPartida" onclick="comencarPartida()">Començar partida</button> 
+    </header>
+    
+    <main> 
+        <h1 id="tituloPalabra">Començar partida</h1>
+        <div class="infojoc">
+            <div class="infojugador">
+                <h2>JUGADOR 1</h2>
+                <p>Punts partides actuals: </p>
+                <p id="puntuacionActual"> </p>
+                <p>Total partides: </p>
+                <p id="totalPartides"> </p>
+                <p>Partides guanyades: </p>
+                <p id="partidesGuanyades"> </p>
+                <p>Partida amb més punts: </p>
+                <p id="partidaMesPunts"> </p>
+            </div>
+            <section class="game-box">
+                <div class="imagen-box">
+                    <img src="imatges/penjat_0.jpg" id="imagen">
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="abecedario" id="letras">
+            <button id="boto_1" onclick="jugarLletra(this);">A</button>
+            <button id="boto_2" onclick="jugarLletra(this);">B</button>
+            <button id="boto_3" onclick="jugarLletra(this);">C</button>
+            <button id="boto_4" onclick="jugarLletra(this);">D</button>
+            <button id="boto_5" onclick="jugarLletra(this);">E</button>
+            <button id="boto_6" onclick="jugarLletra(this);">F</button>
+            <button id="boto_7" onclick="jugarLletra(this);">G</button>
+            <button id="boto_8" onclick="jugarLletra(this);">H</button>
+            <button id="boto_9" onclick="jugarLletra(this);">I</button>
+            <button id="boto_10" onclick="jugarLletra(this);">J</button>
+            <button id="boto_11" onclick="jugarLletra(this);">K</button>
+            <button id="boto_12" onclick="jugarLletra(this);">L</button>
+            <button id="boto_13" onclick="jugarLletra(this);">M</button>
+            <button id="boto_14" onclick="jugarLletra(this);">N</button>
+            <button id="boto_15" onclick="jugarLletra(this);">O</button>
+            <button id="boto_16" onclick="jugarLletra(this);">P</button>
+            <button id="boto_17" onclick="jugarLletra(this);">Q</button>
+            <button id="boto_18" onclick="jugarLletra(this);">R</button>
+            <button id="boto_19" onclick="jugarLletra(this);">S</button>
+            <button id="boto_20" onclick="jugarLletra(this);">T</button>
+            <button id="boto_21" onclick="jugarLletra(this);">U</button>
+            <button id="boto_22" onclick="jugarLletra(this);">V</button>
+            <button id="boto_23" onclick="jugarLletra(this);">W</button>
+            <button id="boto_24" onclick="jugarLletra(this);">X</button>
+            <button id="boto_25" onclick="jugarLletra(this);">Y</button>
+            <button id="boto_26" onclick="jugarLletra(this);">Z</button>
+
+
+        </div>
+    </footer>
+
+    <script src="script/script.js"></script>
+</body>
+</html>

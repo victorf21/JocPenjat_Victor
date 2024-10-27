@@ -1,0 +1,111 @@
+body {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 20px;
+    padding: 10px;
+    gap: 10px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #d5fb84;
+    padding: 10px 16px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+
+h1 {
+    
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2rem;
+    background-color: #558bba;
+    margin: 10px;
+}
+
+.infojoc {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #f8dada;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.infojugador {
+    width: 30%;
+    background-color: #a54b63;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+}
+
+.infojugador h2 {
+    margin-bottom: 15px;
+}
+
+.game-box {
+    width: 50%;
+    height: 250px;
+    background-color: white;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.imagen-box {
+    height: 100%; /* Hacer que la imagen box ocupe todo el alto del contenedor .game-box */
+    display: flex; /* Usar flex para centrar la imagen verticalmente */
+    align-items: stretch; /* Asegurar que la imagen ocupe todo el alto */
+}
+
+.imagen-box img {
+    width: auto; /* Mantener el ancho automático para preservar la relación de aspecto */
+    height: 100%; /* Hacer que la imagen ocupe todo el alto */
+    object-fit: cover; /* Hacer que la imagen cubra todo el contenedor sin deformarse */
+}
+
+.abecedario {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.abecedario button {
+    background-color: #d5fb84;
+    padding: 10px;
+    font-size: 18px;
+    color: red;
+    border: 1px solid #ff0000;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
